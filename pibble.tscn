@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=3 uid="uid://bid8s6eiogjr6"]
+
+[ext_resource type="Texture2D" uid="uid://cw5fms7qgyhma" path="res://pibble.webp" id="1_bavo7"]
+[ext_resource type="Texture2D" uid="uid://bdafrlgo4cfmn" path="res://soap.png" id="2_05jlg"]
+
+[node name="Node" type="Node"]
+
+[node name="Soap" type="Sprite2D" parent="."]
+position = Vector2(977, 182)
+texture = ExtResource("2_05jlg")
+
+[node name="Pibble" type="Sprite2D" parent="."]
+position = Vector2(171, 213)
+texture = ExtResource("1_bavo7")

@@ -1,0 +1,22 @@
+[gd_scene load_steps=4 format=3 uid="uid://4b2fufoq4mat"]
+
+[ext_resource type="Texture2D" uid="uid://cy4w6l30rgijw" path="res://washington.jpg" id="1_7p72n"]
+[ext_resource type="Texture2D" uid="uid://bdafrlgo4cfmn" path="res://soap.png" id="2_ojlj2"]
+[ext_resource type="Texture2D" uid="uid://sy6qk5iqr5tn" path="res://geebleEnergy.jpg" id="3_oii46"]
+
+[node name="Node" type="Node2D"]
+
+[node name="GeebleEnergy" type="Sprite2D" parent="."]
+position = Vector2(102.00002, 548)
+scale = Vector2(0.25634143, 0.27319825)
+texture = ExtResource("3_oii46")
+
+[node name="Washington" type="Sprite2D" parent="."]
+position = Vector2(201, 164.25)
+scale = Vector2(0.52, 0.33949998)
+texture = ExtResource("1_7p72n")
+
+[node name="Soap" type="Sprite2D" parent="."]
+position = Vector2(795.1121, 51.348366)
+scale = Vector2(0.52, 0.33949998)
+texture = ExtResource("2_ojlj2")
